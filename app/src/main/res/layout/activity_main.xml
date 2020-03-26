@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#fff"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:textColor="#C0C0C0" />
+
+  <LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+
+      <qiao.com.rotarybutton.AnalogController
+        android:id="@+id/controllerBass"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="#fff" />
+
+      <qiao.com.rotarybutton.AnalogController
+        android:id="@+id/controllerBass1"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+
+      <qiao.com.rotarybutton.AnalogController
+        android:id="@+id/controllerBass2"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#fff" />
+
+      <qiao.com.rotarybutton.AnalogController
+        android:id="@+id/controllerBass3"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#fff" />
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>
